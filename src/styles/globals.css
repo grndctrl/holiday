@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: '/fonts/Supply';
+  font-weight: '600';
+  src: url('/fonts/Supply-Bold.eot?') format('eot'), url('/fonts/Supply-Bold.woff2') format('woff2'),
+    url('/fonts/Supply-Bold.woff') format('woff'), url('/fonts/Supply-Bold.otf') format('opentype'),
+    url('/fonts/Supply-Bold.ttf') format('truetype'), url('/fonts/Supply-Bold.svg#/fonts/Supply-Bold') format('svg');
+}
+
+@font-face {
+  font-family: '/fonts/Supply';
+  font-weight: '400';
+  src: url('/fonts/Supply-Regular.eot?') format('eot'), url('/fonts/Supply-Regular.woff2') format('woff2'),
+    url('/fonts/Supply-Regular.woff') format('woff'), url('/fonts/Supply-Regular.otf') format('opentype'),
+    url('/fonts/Supply-Regular.ttf') format('truetype'),
+    url('/fonts/Supply-Regular.svg#/fonts/Supply-Regular') format('svg');
+}
+
+@font-face {
+  font-family: '/fonts/Supply';
+  font-weight: '300';
+  src: url('/fonts/Supply-UltraLight.eot?') format('eot'), url('/fonts/Supply-UltraLight.woff2') format('woff2'),
+    url('/fonts/Supply-UltraLight.woff') format('woff'), url('/fonts/Supply-UltraLight.otf') format('opentype'),
+    url('/fonts/Supply-UltraLight.ttf') format('truetype'),
+    url('/fonts/Supply-UltraLight.svg#/fonts/Supply-UltraLight') format('svg');
+}
