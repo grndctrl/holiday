@@ -217,7 +217,7 @@ export default function Model({ ...props }) {
             <div className="flex justify-end w-1/2">
               <button
                 onClick={handleShake}
-                className="p-3 m-8 text-lg text-gray-300 uppercase bg-black rounded-lg pointer-events-auto justify-self-start lg:p-4 lg:text-3xl"
+                className="p-3 m-8 text-lg text-white uppercase bg-black rounded-lg pointer-events-auto justify-self-start lg:p-4 lg:text-3xl"
               >
                 SHAKE
               </button>
@@ -226,7 +226,7 @@ export default function Model({ ...props }) {
               {!isOpen && !isFirst && (
                 <button
                   onClick={handleOpen}
-                  className="p-3 m-8 text-lg text-gray-300 uppercase bg-black rounded-lg pointer-events-auto justify-self-end lg:p-4 lg:text-3xl"
+                  className="p-3 m-8 text-lg text-white uppercase bg-black rounded-lg pointer-events-auto justify-self-end lg:p-4 lg:text-3xl"
                 >
                   OPEN
                 </button>
